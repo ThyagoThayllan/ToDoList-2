@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./Todo.module.css";
+import styles from "./styles.module.css";
 
 export const Todo = ({ todo, isCompleted, deleteTodo, invertTodoStatus }) => {
   const [todoStatus, setTodoStatus] = useState(isCompleted);
